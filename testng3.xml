@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="a" value="30"/>
+	<parameter name="b" value="20"/>
+	<test name="Addition">
+	<classes>
+  <class name="test.Addition"/>
+  </classes>
+  </test> <!-- Test -->
+  <test name="Subtraction">
+  <classes>
+  <class name="test.Subtraction"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
